@@ -46,7 +46,7 @@ section#login > div#imagem {
  background: #7904ef url(../imagens/pexels-sean-whang-804269.jpg) no-repeat;
  background-size: cover;
  background-position: left bottom;
- height: 225px;
+ height: 200px;
 
  transition: width .3s, heith .3s;
  transition-timing-function: ease;
@@ -55,4 +55,13 @@ section#login > div#imagem {
 section#login > div#formulario {
  display: block;    
  padding: 10px;  
+}
+
+div#formulario > h1 {
+ text-align: center;
+ margin-bottom: 10px;
+}
+
+div#formulario > p {
+font-size: 0.8em;
 }
