@@ -45,7 +45,7 @@ section#login > div#imagem {
  background: #7904ef url(../imagens/pexels-sean-whang-804269.jpg) no-repeat;
  background-size:cover;
  background-position:left bottom;
- height: 155px;
+ height: 200px;
 
 
  transition: width .3s, heith .3s;
