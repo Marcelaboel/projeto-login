@@ -47,7 +47,7 @@ section#login > div#imagem {
  background-position:bottom;
  height: 350px;
 
-
+ 
  transition: width .3s, heith .3s;
  transition-timing-function:ease-out;
 }
@@ -63,21 +63,43 @@ div#formulario > h1 {
 }
 
 div#formulario > p {
-font-size: 0.8em;
+font-size: 1em;
 }
 
 form > div.campo {
- background-color:#998ca8;
+ background-color:#715a8c;
+ border:2px solid #715a8c;
  display: block;
  width: 100%;
-height:100%;
+/*heigth*/
 border-radius: 5px;
 margin: 1px 1px;
 }
 
 div.campo > label {
- display: none;
+ display:none;
 }
+
+div.campo > span {
+ color: white;
+ font-size: 2em;
+ width: 40px;
+ padding: 5px;
+}
+
+div.campo > input {
+ background-color: #c0d0d2;
+ font-size: 1em;
+ Width: calc(100% - 50px);
+ height: 100%;
+ border: 0px;
+ border-radius: 7px;
+ translate: translateY(-30px);
+ }
+
+ div.campo > input:focus-within {
+  background-color: white;
+ } 
 
 form > input[type=submit] {
  display: block;
