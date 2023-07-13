@@ -19,7 +19,7 @@ Grandes Telas: acima de 1200px
 }
 
 section#login > div#imagem {
- float:left;
+ float: left;
  width: 30%;
  height: 100%;
 }
